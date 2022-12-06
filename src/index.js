@@ -2,14 +2,8 @@ import React from "react";
 import ReactDom from "react-dom";
 import './index.css';
 const date = new Date();
-const date1 = new Date().toLocaleDateString();
-const time = new Date().toLocaleTimeString();
 
-let day = date.getDate()
-let month = date.getMonth()
-let year = date.getFullYear()
-let min = date.getMinutes()
-let sec = date.getSeconds()
+
 let hour = date.getHours()
 
 const cssStyle = { };
